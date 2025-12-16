@@ -3,7 +3,6 @@
 
 
 # Introduction <a name="introduction"></a>
-Introduction
 The API is used to get the Azure Storage Account resource information from Azure API Server (https://management.azure.com/). The response includes the details like name, id, type, location and properties.
 
 
