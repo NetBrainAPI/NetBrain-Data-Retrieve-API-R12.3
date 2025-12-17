@@ -1,0 +1,16 @@
+# Table of Contents
+- [Introduction](#introduction)
+
+
+# Introduction <a name="introduction"></a>
+The API is used to get a database's Advanced Threat Protection state from Azure API Server (https://management.azure.com/). The response includes the details like name, id, type and properties.
+
+
+
+The original Azure RESTful API used is <Database Advanced Threat Protection Settings - Get>. 
+
+
+
+For a complete list of available API resources for Azure SQL Databases, please refer to Microsoft document: [Database Advanced Threat Protection Settings - REST API (Azure SQL Database) | Microsoft Learn](https://learn.microsoft.com/en-us/rest/api/sql/database-advanced-threat-protection-settings?view=rest-sql-2023-08-01)
+
+For the original Azure API detailed information, please refer to Microsoft document: [Database Advanced Threat Protection Settings - Get - REST API (Azure SQL Database) | Microsoft Learn](https://learn.microsoft.com/en-us/rest/api/sql/database-advanced-threat-protection-settings/get?view=rest-sql-2023-08-01&tabs=HTTP#code-try-0)
