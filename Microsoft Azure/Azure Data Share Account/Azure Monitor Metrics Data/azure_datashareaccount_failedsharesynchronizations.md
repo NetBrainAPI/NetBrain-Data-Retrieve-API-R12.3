@@ -5,19 +5,19 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve Azure Data Share Account <b>ShareCount</b> metric data from Azure API Server (https://management.azure.com/). The metric is the number of sent shares in the account.
+The API is used to retrieve Azure Data Share Account <b>FailedShareSynchronizations</b> metric data from Azure API Server (https://management.azure.com/). The metric is the number of sent share failed snapshots in the account.
 
 It leverages the Azure Monitor solution to fetch metrics of Azure resources via the Azure RESTful API.
 
 # Metric Info <a name="metric-info"></a>
-* <b>Azure REST API Name</b>: ShareCount
-* <b>NetBrain Display Name</b>: Sent Shares
+* <b>Azure REST API Name</b>: FailedShareSynchronizations
+* <b>NetBrain Display Name</b>: Sent Share Failed Snapshots
 * <b>Unit</b>: Count
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
 * <b>Start Time / End Time</b>: Define the time range to analyze data points, useful for historical analysis or recent monitoring. Default time range is the last 24 hours.
-* <b>Aggregation</b>: The process of taking multiple input values and then using them to produce a single output value via the rules defined by the aggregation type. For example, taking an average of multiple values. Valid values: Maximum. Default value is <b>Maximum</b>.
-  * <b>Maximum</b>: The largest value captured over the aggregation interval.
+* <b>Aggregation</b>: The process of taking multiple input values and then using them to produce a single output value via the rules defined by the aggregation type. For example, taking an average of multiple values. Valid values: Count. Default value is <b>Count</b>.
+  * <b>Count</b>: The number of measurements captured over the aggregation interval. Count doesn't look at the value of the measurement, only the number of records.
 * <b>Interval</b>: Valid values: PT12H and P1D. Default value is <b>PT12H</b>.
   * <b>PT12H</b>: Reporting interval for Metrics will have a timegrain of 12 hours.
 * <b>Auto Adjust Timegrain</b>: When set to true, if the timespan passed in is not supported by this metric, the API will return the result using the closest supported timespan. When set to false, an error is returned for invalid timespan parameters. Defaults to <b>false</b>.
