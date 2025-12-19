@@ -3,15 +3,14 @@
 
 
 # Introduction <a name="introduction"></a>
-The API is used to list current service health events for given resource from Azure API Server (https://management.azure.com/). The response includes the details like id, name, type, properties, etc.
+The API is used to get the Azure Network Managers resource information from Azure API Server (https://management.azure.com/). The response includes the details like name, id, type, location, properties, etc.
 
 
 
-The original Azure RESTful API used is <Events - List By Single Resource>. 
+The original Azure RESTful API used is <Network Managers - Get>. 
 
 
 
-For a complete list of available API resources for Azure Network Manager, please refer to Microsoft document: [Events - REST API (Azure Resource Health) | Microsoft Learn](https://learn.microsoft.com/en-us/rest/api/resourcehealth/events?view=rest-resourcehealth-2025-05-01)
+For a complete list of available API resources for Azure Network Managers, please refer to Microsoft document: [Network Managers - REST API (Azure Network Manager) | Microsoft Learn](https://learn.microsoft.com/en-us/rest/api/networkmanager/network-managers?view=rest-networkmanager-2025-03-01&viewFallbackFrom=rest-networkmanager-2024-07-01)
 
-For the original Azure API detailed information, please refer to Microsoft document: [Events - List By Single Resource - REST API (Azure Resource Health) | Microsoft Learn](https://learn.microsoft.com/en-us/rest/api/resourcehealth/events/list-by-single-resource?view=rest-resourcehealth-2025-05-01&tabs=HTTP#code-try-0)
-
+For the original Azure API detailed information, please refer to Microsoft document: [Network Managers - Get - REST API (Azure Network Manager) | Microsoft Learn](https://learn.microsoft.com/en-us/rest/api/networkmanager/network-managers/get?view=rest-networkmanager-2025-03-01&viewFallbackFrom=rest-networkmanager-2024-07-01&tabs=HTTP#code-try-0)
