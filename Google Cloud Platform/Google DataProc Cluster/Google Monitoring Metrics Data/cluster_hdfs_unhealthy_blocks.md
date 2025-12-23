@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to Indicates the number of unhealthy blocks inside the cluster.
+The API indicates the number of unhealthy blocks inside the cluster.
 
 It leverages the GCP Cloud monitoring to fetch metrics of GCP resources via the GCP RESTful API.
 

@@ -4,7 +4,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to returns the specified DataProc Cluster details.
+The API returns the specified DataProc Cluster details.
 
 It leverages the GCP compute engine to fetch details of GCP resources via the GCP RESTful API.
 

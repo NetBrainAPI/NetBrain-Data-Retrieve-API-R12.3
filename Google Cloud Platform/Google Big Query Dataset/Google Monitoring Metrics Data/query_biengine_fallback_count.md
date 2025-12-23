@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve the reasons that queries failed BI Engine execution.
+The API is used to retrieve the root cause of that queries failed BI Engine execution.
 
 It leverages GCP Cloud Monitoring to fetch metrics of GCP resources via the GCP RESTful API.
 

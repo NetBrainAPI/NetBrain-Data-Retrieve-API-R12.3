@@ -4,7 +4,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is returns the specified Filestore Instance details.
+The API returns the specified Filestore Instance details.
 
 It leverages the GCP compute engine to fetch details of GCP resources via the GCP RESTful API.
 

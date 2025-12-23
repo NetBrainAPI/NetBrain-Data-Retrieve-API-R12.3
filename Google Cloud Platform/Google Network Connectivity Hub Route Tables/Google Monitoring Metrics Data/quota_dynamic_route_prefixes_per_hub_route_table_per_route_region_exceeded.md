@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve number of dynamic route prefixes per hub route table per route region to exceed the limit on quota metric.
+The API is used to retrieve the number of dynamic route prefixes per hub route table per route region to exceed the limit on quota metric.
 
 It leverages the GCP Cloud monitoring to fetch metrics of GCP resources via the GCP RESTful API.
 

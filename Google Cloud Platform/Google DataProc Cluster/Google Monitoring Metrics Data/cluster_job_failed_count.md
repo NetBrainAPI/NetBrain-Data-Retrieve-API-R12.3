@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to indicates the number of jobs that have failed on a cluster.
+The API indicates the number of jobs that have failed on a cluster.
 
 It leverages GCP Cloud Monitoring to fetch metrics of GCP resources via the GCP RESTful API. 
 

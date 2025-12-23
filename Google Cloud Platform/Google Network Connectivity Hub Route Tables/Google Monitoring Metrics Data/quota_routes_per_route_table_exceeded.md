@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve total number of routes to exceed the limit on quota metric. 
+The API is used to retrieve the total number of routes to exceed the limit on quota metric. 
 
 It leverages the GCP Cloud monitoring to fetch metrics of GCP resources via the GCP RESTful API. 
 

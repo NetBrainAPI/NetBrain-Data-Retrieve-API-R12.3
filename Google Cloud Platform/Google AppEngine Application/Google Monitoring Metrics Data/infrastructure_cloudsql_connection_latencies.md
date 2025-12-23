@@ -5,7 +5,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve the Distribution of latency in microseconds for connections originating from App Engine to CloudSQL.
+The API is used to retrieve the distribution of latency in microseconds for connections originating from App Engine to CloudSQL.
 
 It leverages the GCP Cloud monitoring to fetch metrics of GCP resources via the GCP RESTful API. 
 
