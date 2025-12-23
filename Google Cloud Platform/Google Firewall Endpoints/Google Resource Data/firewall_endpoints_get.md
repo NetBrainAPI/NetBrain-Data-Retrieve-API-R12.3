@@ -4,7 +4,7 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is returns the specified Firewall Endpoint details.
+The API returns the specified Firewall Endpoint details.
 
 It leverages the GCP compute engine to fetch details of GCP resources via the GCP RESTful API.
 # Resource Info <a name="metric-info"></a>

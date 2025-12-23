@@ -5,13 +5,12 @@
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
-The API is used to retrieve the number of attempts to exceed the limit on quota metric cloudsql.googleapis.com/database/disk/utilization.
+The API is used to retrieve Cluster CPU Average Utilization.
 
 It leverages the GCP Cloud monitoring to fetch metrics of GCP resources via the GCP RESTful API.
-
 # Metric Info <a name="metric-info"></a>
-* <b>Resource Label Used</b>: VPC Network Project ID (project_id)
-* <b>GCP Original Name</b>: database/disk/utilization
+* <b>Resource Label Used</b>: ID of the Instance (instance_id)
+* <b>GCP Original Name</b>: cluster/cpu/average_utilization
 
 
 # User-Defined Parameters <a name="user-defined-parameters"></a>
