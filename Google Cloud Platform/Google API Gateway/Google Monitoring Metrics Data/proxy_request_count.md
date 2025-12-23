@@ -19,4 +19,4 @@ It leverages the GCP Cloud monitoring to fetch metrics of GCP resources via the 
 
 # Reference <a name="reference"></a>
 * <b>Metrics Details</b>: https://cloud.google.com/monitoring/api/metrics_gcp
-* <b>Metrics API</b>: https://cloud.google.com/monitoring/api/v3/filters
+* <b>Monitoring API</b>: https://cloud.google.com/monitoring/api/v3/filters

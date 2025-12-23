@@ -1,6 +1,6 @@
 # Table of Contents
 - [Overview](#overview)
-- [Metric Info](#metric-info)
+- [Resource Info](#metric-info)
 - [Reference](#reference)
 
 # Overview <a name="overview"></a>
@@ -8,7 +8,7 @@ The API is used to retrieve the specified batch job details.
 
 It leverages the GCP compute engine to fetch details of GCP resources via the GCP RESTful API.
 
-# Metric Info <a name="metric-info"></a>
+# Resource Info <a name="metric-info"></a>
 * <b>GCP Original Name</b>: batchjob.get
 
 # Reference <a name="reference"></a>
