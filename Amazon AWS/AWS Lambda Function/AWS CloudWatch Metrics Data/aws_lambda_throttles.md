@@ -29,7 +29,7 @@ The <b>Throttles</b> metric counts the number of AWS Lambda invocation requests 
   * <b>Recommended Values</b>:
     * <b>300 seconds</b> for real-time concurrency saturation tracking.
     * <b>3600 seconds</b> for hourly monitoring of invocation health.
-    * <b>7200 seconds</b> for long-term  concurrency planning and optimization.
+    * <b>7200 seconds</b> for long-term concurrency planning and optimization.
 
 # Use Cases Example <a name="example"></a>
 ## Use Case 1: Detecting Concurrency Limit Bottlenecks <a name="example-1"></a>
