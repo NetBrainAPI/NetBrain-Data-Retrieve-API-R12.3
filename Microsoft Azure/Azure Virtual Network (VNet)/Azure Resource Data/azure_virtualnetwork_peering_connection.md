@@ -3,7 +3,7 @@
 
 
 # Introduction <a name="introduction"></a>
-The API is used to get the Azure Virtual Network path route table information from Azure API Server (https://management.azure.com/). The response includes the details like provisioningState, peeringState, etc.
+The API is used to get the Azure Virtual Network Peering Connection information from Azure API Server (https://management.azure.com/). The response includes the details like provisioningState, peeringState, etc.
 
 
 
